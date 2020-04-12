@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="simpledrum" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>SimpleDrum</name>
+<widget id="simpledrumex" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SimpleDrumEx</name>
     <description>
-        SimpleDrum - пиши музыку легко.
+        SimpleDrumEx - пиши музыку легко.
     </description>
     <author email="loisoj@gmail.com" href="https://we-dev.ru/">
-        SimpleDrum
+        SimpleDrumEx
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
