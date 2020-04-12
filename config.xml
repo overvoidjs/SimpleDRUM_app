@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="simpledrum" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SimpleDrum</name>
+    <description>
+        SimpleDrum - пиши музыку легко.
+    </description>
+    <author email="loisoj@gmail.com" href="https://we-dev.ru/">
+        SimpleDrum
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="26" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.4" />
+    <plugin name="tobo-cordova-plugin-inappbrowser" source="npm" spec="1.7.5" />
+    <allow-navigation href="*" />
+    <access origin="*" subdomains="true" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <icon src="icon_android.png"/>
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <icon src="icon_ios.png"/>
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
